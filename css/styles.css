@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "AtariClassic";
+    src: url(../fonts/AtariClassic-Regular.ttf) format("truetype");
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "AtariClassic";
+}
+#playfied {
+    margin: 0;
+    padding: 0;
+}
+#menu {
+    position: relative;
+    margin: 0;
+    margin-top: -4px;
+    padding: 0;
+}
+img {
+    margin: 0;
+    padding: 0;
+}
+#score {
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    font-family: "AtariClassic";
+    font-size: 56px;
+    color: rgb(197, 197, 197);
+}
+#active {
+    position: absolute;
+    top: 195px;
+    left: 30px;
+    width: 534px;
+    height: 47px;
+    line-height: 47px;
+    font-family: AtariClassic;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(197, 197, 197);
+}
+#info {
+    position: absolute;
+    top: 195px;
+    left: 595px;
+    width: 510px;
+    height: 47px;
+    line-height: 47px;
+    font-family: AtariClassic;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(197, 197, 197);
+}
+#speed {
+    position: absolute;
+    top: 69px;
+    left: 454px;
+}
+#ammo {
+    position: absolute;
+    top: 69px;
+    left: 539px;
+}
+#bomb {
+    position: absolute;
+    top: 69px;
+    left: 624px;
+}
+#laser {
+    position: absolute;
+    top: 69px;
+    left: 709px;
+}
+#addon {
+    position: absolute;
+    top: 69px;
+    left: 794px;
+}
+#shield {
+    position: absolute;
+    top: 69px;
+    left: 879px;
+}
+#life1 {
+    position: absolute;
+    top: 73px;
+    left: 980px;
+}
+#life2 {
+    position: absolute;
+    top: 73px;
+    left: 1010px;
+}
+#life3 {
+    position: absolute;
+    top: 73px;
+    left: 1040px;
+}
+#comm {
+    width: 1135px;
+    height: 535px;
+    line-height: 535px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: rgb(88, 214, 82);
+    font-size: 50px;
+}

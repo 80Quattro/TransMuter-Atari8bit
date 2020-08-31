@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TransMuter</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/chevy.js"></script>
+    <script src="js/Main.js"></script>
+    <script src="js/Settings.js"></script>
+    <script src="js/Images.js"></script>
+    <script src="js/Objects.js"></script>
+    <script>
+        var main;
+        window.addEventListener("load", function() {
+            main = new Main();
+        })
+    </script>
+</head>
+<body>
+    <div id="playfield"></div>
+    <div id="comm"></div>
+    <div id="menu">
+        <img src="imgs/ui-base.png">
+        <div id="score">0000000</div>
+        <div id="active" style="display:none">SHIELD ACTIVATED</div>
+        <div id="info"></div>
+        <img id="speed" style="display:none" src="imgs/ui-speed.png">
+        <img id="ammo" style="display:none" src="imgs/ui-ammo.png">
+        <img id="bomb" style="display:none" src="imgs/ui-bomb.png">
+        <img id="laser" style="display:none" src="imgs/ui-laser.png">
+        <img id="addon" style="display:none" src="imgs/ui-addon.png">
+        <img id="shield" style="display:none" src="imgs/ui-shield.png">
+        <img id="life1" src="imgs/ui-life.png">
+        <img id="life2" src="imgs/ui-life.png">
+        <img id="life3" src="imgs/ui-life.png">
+    </div>
+</body>
+</html>
